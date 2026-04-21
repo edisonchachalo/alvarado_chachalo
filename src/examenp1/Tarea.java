@@ -83,7 +83,7 @@ public class Tarea {
     }
 
     //Comparable para prioridad
-    @Override
+    //@Override
     public int compareTo (Tarea t){
         if  (this.prioridad > t.getPrioridad()){
             return -1; //primero la prioridad más alta
