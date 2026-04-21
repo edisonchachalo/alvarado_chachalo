@@ -56,6 +56,7 @@ public class Ventana {
                 for (String s : lista){
                     resultado += s + "\n";
                 }
+                textArea1.setText(resultado);
             }
         });
         btnTotales.addActionListener(new ActionListener() {
