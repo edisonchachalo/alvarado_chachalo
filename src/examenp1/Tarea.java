@@ -1,7 +1,7 @@
 package examenp1;
 //Alvardo Joel
 //Chachalo Edison
-public class Tarea {
+public class Tarea implements Comparable<Tarea> {
     //Atributos
     private int identificador;
     private String nombre;
@@ -83,7 +83,7 @@ public class Tarea {
     }
 
     //Comparable para prioridad
-    //@Override
+    @Override
     public int compareTo (Tarea t){
         if  (this.prioridad > t.getPrioridad()){
             return -1; //primero la prioridad más alta
